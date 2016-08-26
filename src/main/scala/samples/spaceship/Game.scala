@@ -213,7 +213,6 @@ object Game extends js.JSApp {
   }).startWith(0)
 
   def renderScene(actors: Actors): Unit = {
-    println("030")
     paintStars(actors.stars)
     paintSpaceShip(actors.spaceship.x, actors.spaceship.y)
     paintEnemies(actors.enemies)
