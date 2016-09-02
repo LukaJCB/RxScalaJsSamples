@@ -2,8 +2,9 @@ package samples.main
 
 import org.scalajs.dom.document
 import rxscalajs.Observable
-import scala.concurrent.{Future, ExecutionContext}
-import ExecutionContext.Implicits.global
+
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.Future
 
 class Samples {
 

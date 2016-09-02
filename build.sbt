@@ -11,7 +11,7 @@ resolvers +=
   "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
 libraryDependencies ++= Seq(
-  "com.github.lukajcb" %%% "rxscala-js" % "0.1.8-SNAPSHOT",
+  "com.github.lukajcb" %%% "rxscala-js" % "0.3.1",
   "org.scala-js" %%% "scalajs-dom" % "0.9.0"
 )
 
